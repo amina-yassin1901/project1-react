@@ -1,9 +1,15 @@
 import styles from "./styles.module.css";
 import ContentHero from "../contentHero";
+import bgHero from "/src/assets/images/bgHero.jpg";
 
 function Hero() {
   return (
-    <div className={styles.container}>
+    <div
+      style={{
+        backgroundImage: `url(${bgHero})`,
+      }}
+      className={styles.container}
+    >
       <ContentHero />
     </div>
   );
