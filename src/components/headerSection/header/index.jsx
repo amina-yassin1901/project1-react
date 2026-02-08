@@ -7,13 +7,14 @@ import Btn from "../btn";
 function Header() {
   const navMenuValue = ["Home", "Blog", "Features", "Pricing", "Documentation"];
   const linksItems = [
-    { id: 1, label: "Facebook", icon: "src/assets/icons/facebook.svg" },
-    { id: 2, label: "Telegram", icon: "src/assets/icons/telegram.svg" },
-    { id: 3, label: "Twitter", icon: "src/assets/icons/twitter.svg" },
-    { id: 4, label: "Medium", icon: "src/assets/icons/medium.svg" },
+    { id: 1, label: "Facebook", icon: "../../assets/icons/facebook.svg" },
+    { id: 2, label: "Telegram", icon: "../../assets/icons/telegram.svg" },
+    { id: 3, label: "Twitter", icon: "../../assets/icons/twitter.svg" },
+    { id: 4, label: "Medium", icon: "../../assets/icons/medium.svg" },
   ];
   return (
     <header className={styles.header}>
+      <img src="../../" alt="" />
       <div className={styles.logoContainer}>
         <Logo />
         <NavMenu navMenuValue={navMenuValue} />
