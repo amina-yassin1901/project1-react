@@ -1,0 +1,13 @@
+.list {
+  display: flex;
+  gap: 42px;
+  justify-content: center;
+  align-items: center;
+}
+.item {
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  text-align: center;
+}
