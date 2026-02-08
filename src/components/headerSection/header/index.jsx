@@ -18,14 +18,15 @@ function Header() {
   ];
   return (
     <header className={styles.header}>
-      <img src="../../" alt="" />
-      <div className={styles.logoContainer}>
-        <Logo />
-        <NavMenu navMenuValue={navMenuValue} />
-      </div>
-      <div className={styles.linksContainer}>
-        <Links linksItems={linksItems} />
-        <Btn title={"Get Started"} />
+      <div className={styles.container}>
+        <div className={styles.logoContainer}>
+          <Logo />
+          <NavMenu navMenuValue={navMenuValue} />
+        </div>
+        <div className={styles.linksContainer}>
+          <Links linksItems={linksItems} />
+          <Btn title={"Get Started"} />
+        </div>
       </div>
     </header>
   );
