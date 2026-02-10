@@ -1,7 +1,8 @@
 import "./App.css";
 import Header from "./components/headerSection/header";
-import Hero from "./components/heroSection/hero";
+import Hero from "./components/hero";
 import Customers from "./components/customersSection/customers";
+import PlanManage from "./components/planAndManage";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <Hero />
       <Customers />
+      <PlanManage />
     </div>
   );
 }

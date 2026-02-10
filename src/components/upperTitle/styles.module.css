@@ -1,0 +1,11 @@
+.upperTitle {
+  font-weight: 500;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #3d4f9f;
+  margin-bottom: 16px;
+}
+.secondStyle {
+  margin-bottom: 27px;
+}

@@ -1,0 +1,28 @@
+.container {
+  padding-top: 170px;
+  padding-bottom: 170px;
+  margin: 0 auto;
+  background-color: #f5f8ff;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: start;
+  gap: 55px;
+  max-width: 1440px;
+}
+
+.accentWidth {
+  font-weight: 500;
+}
+.btnContainer {
+  display: flex;
+  align-items: center;
+}
+.img {
+  max-width: 653px;
+  max-height: 436px;
+  object-fit: cover;
+  width: 100%;
+  margin-right: 48px;
+}
